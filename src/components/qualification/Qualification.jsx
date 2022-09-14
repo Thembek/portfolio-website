@@ -26,7 +26,7 @@ const Qualification = () => {
             </div>
 
             <div className="qualification__sections">
-                
+                dsdsssd
             </div>
         </div>
        </section>
