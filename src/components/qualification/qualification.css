@@ -99,7 +99,7 @@
   }
   
   @media screen and (max-width: 576px){
-    .qualificatin__sections{
+    .qualification__sections{
         grid-template-columns: initial;
     }
 
