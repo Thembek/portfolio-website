@@ -43,3 +43,32 @@
     display: inline-flex; 
 }
 
+.footer__social-link:hover {
+    background-color: var(--title-color-dark);
+}
+
+.footer__copy {
+    display: block;
+    margin-top: 4.5rem;
+    color: var(--title-color);
+    text-align: center;
+    font-size: var(--smaller-font-size);
+}
+
+
+/*===Responsive Breakpoints ===*/
+/*For large devices */
+@media screen and (max-width: 992px){
+    .footer__social-link{
+        padding: 0.25rem;
+        border-radius: 0.25rem;
+        font-size: 1rem;
+    }
+  }
+  
+  /*For small devices*/
+  @media screen and (max-width: 350px){
+    .footer{
+        max-width: max-content;
+    }
+  }
