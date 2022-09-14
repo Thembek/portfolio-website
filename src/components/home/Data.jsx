@@ -62,7 +62,7 @@ const Data = () => {
                 and I'm very passionate and dedicated to my work.
             </p>
 
-            <a href="" className="button button--flex">
+            <a href="#contact" className="button button--flex">
                 Say, hello!
                 <svg
                   className="button__icon"

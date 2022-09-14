@@ -1,14 +1,14 @@
-import React from 'react';
+import { React}  from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
 import { Pagination} from 'swiper';
-import "swiper/css/pagination";
+import 'swiper/swiper.min.css'
+import "swiper/modules/pagination/pagination.min.css";
 
 import { Data }  from './Data';
 import './testimonials.css';
 
 const Testimonial = () => {
-    return(
+    return (
         <section className="testimonial container section">
             <h2 className="section__title">Testimonials</h2>
             <span className="section__subtitle">What my clients say</span>
