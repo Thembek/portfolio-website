@@ -2,10 +2,11 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
-import Work1 from '../../assets/work1.jpg';
-import Work2 from '../../assets/work2.jpg';
-import Work3 from '../../assets/work3.jpg';
-import Work4 from '../../assets/work4.jpg';
+import Work1 from '../../assets/optimus-prime.png';
+import Work2 from '../../assets/magazine-website.png';
+import Work3 from '../../assets/formula1-website.png';
+import Work4 from '../../assets/surfers-website.png';
+import Work5 from '../../assets/todo-list-website.png';
 
 import './portfolio.css';
 
@@ -22,18 +23,31 @@ const Portfolio = () => {
                 className="portfolio-slider"
             >
                 <SwiperSlide>
-                <img src={Work1} alt="" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img src={Work2} alt="" />
-            </SwiperSlide>
-             <SwiperSlide>
-                <img src={Work3} alt="" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img src={Work4} alt="" />
-            </SwiperSlide>
-        </Swiper>
+                    <a href="https://autotbots.netlify.app/">
+                        <img src={Work1} alt="" />
+                    </a>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <a href="https://awehtodolist.netlify.app/">
+                        <img src={Work5} alt="" />
+                    </a>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <a href="https://formula1ace.netlify.app/">
+                        <img src={Work3} alt="" />
+                    </a>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <a href="https://thembek.github.io/Magazine-Work-One/">
+                        <img src={Work2} alt="" />
+                    </a>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <a href="https://surf-up.netlify.app/">
+                        <img src={Work4} alt="" />
+                    </a>
+                </SwiperSlide>
+            </Swiper>
         </div>
     );
 }
