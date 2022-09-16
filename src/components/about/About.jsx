@@ -1,7 +1,7 @@
 import React from 'react';
 
 import AboutImg from '../../assets/about.jpg';
-import CV from '../../assets/John-Cv.pdf';
+import CV from '../../assets/Andile-Resume.pdf';
 import Info from './Info';
 import './about.css';
 
@@ -18,9 +18,9 @@ const About = () => {
                     <Info />
 
                     <p className="about__description">
-                        Frontend developer, I create web pages with UI / UX user interface, 
-                        I have years of experience and many clients are happy with the projects 
-                        carried out.
+                        I am a web developer, pursuing fullstack web development, using the MERN stack framework, libraries, languages and database. <br />
+                        I create web pages with UI / UX user interface, using Figma. <br /> 
+                        I also do mobile development, using Flutter. For my data storage, and authentification, I use MongoDb and Firebase. 
                     </p>
 
                     <a download="" href={CV} className="button button--flex">Download CV

@@ -58,7 +58,7 @@ const Data = () => {
                 Web Developer
             </h3>
             <p className="home__description">
-                I am a web developer based in the city of Cape Town.
+                I am a software developer based in the city of Cape Town.
                 As a developer, I work on both, server and client side.
             </p>
 
