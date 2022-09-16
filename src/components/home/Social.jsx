@@ -8,17 +8,17 @@ const Social = () => {
                 
                 <i className="bx bxl-nodejs"></i>
             </a>
-            <a href="https://github.com/" className="home__social-icon" target="_blank">
+            <a href="https://github.com/Thembek/Surfers-life" className="home__social-icon" target="_blank">
                 <i className="bx bxl-react"></i>
             </a>
-            <a href="" className="home__social-icon" target="_blank">
+            <a href=" https://web-portfolio-3b24a.firebaseapp.com/index.html" className="home__social-icon" target="_blank">
                 <i class='bx bxl-firebase' ></i>
             </a>
             <a href="https://github.com/Thembek/Flutter-application" className="home__social-icon" target="_blank">
                 <i className='bx bxl-flutter' ></i>
             </a>
             <a href="https://github.com/Thembek/" className="home__social-icon" target="_blank">
-                <i class='bx bxl-github' ></i>
+                <i class='bx bxl-github github' ></i>
             </a>
         </div>
     );
