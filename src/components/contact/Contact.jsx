@@ -34,7 +34,7 @@ const Contact = () => {
                             <h3 className="contact__card-title">Discord</h3>
                             <span className="contact__card-data">Andile#7840</span>
 
-                            <a href="https://discord.com/channels/646608657831690241/646612479815843840" className="contact__button">Mail me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <a href="https://discord.com/channels/646608657831690241/646612479815843840" className="contact__button" target="_blank">Mail me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
 
                         <div className="contact__card">
@@ -43,7 +43,7 @@ const Contact = () => {
                             <h3 className="contact__card-title insta-title">Instagram</h3>
                             <span className="contact__card-data">@indozndzo_bila</span>
 
-                            <a href="https://www.instagram.com/direct/inbox/" className="contact__button">Inbox me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <a href="https://www.instagram.com/direct/inbox/" className="contact__button" target="_blank">Inbox me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
 
                         <div className="contact__card">
@@ -52,7 +52,7 @@ const Contact = () => {
                             <h3 className="contact__card-title">linkedIn</h3>
                             <span className="contact__card-data">Andile Junior Goba</span>
 
-                            <a href="https://www.linkedin.com/messaging/thread/2-MDViN2MwMmMtMTEyZC00ZWZhLTlmMDgtYjU5NGY2ZTQ0YmU2XzAxMw==/" className="contact__button">Message me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <a href="https://www.linkedin.com/messaging/thread/2-MDViN2MwMmMtMTEyZC00ZWZhLTlmMDgtYjU5NGY2ZTQ0YmU2XzAxMw==/" className="contact__button" target="_blank">Message me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
                     </div>
                 </div>
