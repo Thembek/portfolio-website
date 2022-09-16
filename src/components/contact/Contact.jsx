@@ -34,7 +34,7 @@ const Contact = () => {
                             <h3 className="contact__card-title">Discord</h3>
                             <span className="contact__card-data">Andile#7840</span>
 
-                            <a href="mailto:examplemail@gmail.com.com" className="contact__button">Mail me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <a href="https://discord.com/channels/646608657831690241/646612479815843840" className="contact__button">Mail me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
 
                         <div className="contact__card">
