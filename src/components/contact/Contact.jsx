@@ -45,7 +45,7 @@ const Contact = () => {
                             <i className="bx bxl-instagram contact__card-icon insta"></i>
 
                             <h3 className="contact__card-title insta-title">Instagram</h3>
-                            <span className="contact__card-data">@indozndzo_bila</span>
+                            <span className="contact__card-data">@indzondzo_bila</span>
 
                             <a href="https://www.instagram.com/direct/inbox/" className="contact__button" target="_blank">Inbox me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
