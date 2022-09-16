@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { Helmet } from 'react-helmet';
 
 import './contact.css';
 
@@ -20,6 +21,9 @@ const Contact = () => {
 
     return(
         <section className="contact section" id="contact">
+            <Helmet>
+                <title style={{ fontFamily: "'Playfair Display', serif", fontStyle: "italic" }}>A.J.G Web Portfolio | Contact</title>
+            </Helmet>
             <h2 className="section__title">Contact</h2>
             <span className="section__subtitle">Get in touch</span>
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
@@ -13,6 +14,9 @@ import './portfolio.css';
 const Portfolio = () => {
     return (
         <div className="portfolio" id="portfolio">
+            <Helmet>
+                <title style={{ fontFamily: "'Playfair Display', serif", fontStyle: "italic" }}>A.J.G Web Portfolio | Portfolio</title>
+            </Helmet>
             <h2 className="section__title">My Portfolio</h2>
             <span className="section__subtitle">Built projects</span>
 

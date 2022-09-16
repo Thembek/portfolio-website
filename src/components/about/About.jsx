@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 import AboutVid from '../../assets/about-vid.mp4';
 import CV from '../../assets/Andile-Resume.pdf';
@@ -8,6 +9,9 @@ import './about.css';
 const About = () => {
     return(
         <section className="about section" id="about">
+            <Helmet>
+                <title style={{ fontFamily: "'Playfair Display', serif", fontStyle: "italic" }}>A.J.G Web Portfolio | About</title>
+            </Helmet>
             <h2 className="section__title">My introduction</h2>
             <span className="section__subtitle">About Me</span>
 
