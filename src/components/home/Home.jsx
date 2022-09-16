@@ -3,6 +3,8 @@ import React from 'react';
 import Social from './Social';
 import Data from './Data';
 import ScrollDown from './ScrollDown';
+
+import '../skills/skills.css';
 import './home.css';
 
 const Home = () => {

@@ -29,36 +29,36 @@ const Contact = () => {
 
                     <div className="contact__info">
                         <div className="contact__card">
-                            <i className='bx bx-mail-send contact__card-icon'></i>
+                            <i className='bx bxl-discord-alt contact__card-icon discord'></i>
 
-                            <h3 className="contact__card-title">Email</h3>
-                            <span className="contact__card-data">user@gmail.com</span>
+                            <h3 className="contact__card-title">Discord</h3>
+                            <span className="contact__card-data">Andile#7840</span>
 
-                            <a href="mailto:examplemail@gmail.com.com" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <a href="mailto:examplemail@gmail.com.com" className="contact__button">Mail me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
 
                         <div className="contact__card">
-                            <i className="bx bxl-whatsapp contact__card-icon"></i>
+                            <i className="bx bxl-instagram contact__card-icon insta"></i>
 
-                            <h3 className="contact__card-title">Whatsapp</h3>
-                            <span className="contact__card-data">999-888-777</span>
+                            <h3 className="contact__card-title insta-title">Instagram</h3>
+                            <span className="contact__card-data">@indozndzo_bila</span>
 
-                            <a href="https://api.whatsapp.com/send?phone=62214408789&text=Hello, more information!" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <a href="https://www.instagram.com/direct/inbox/" className="contact__button">Inbox me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
 
                         <div className="contact__card">
-                            <i className="bx bxl-messenger contact__card-icon"></i>
+                            <i className="uil uil-linkedin contact__card-icon linkedin"></i>
 
-                            <h3 className="contact__card-title">Messenger</h3>
-                            <span className="contact__card-data">user.fb123</span>
+                            <h3 className="contact__card-title">linkedIn</h3>
+                            <span className="contact__card-data">Andile Junior Goba</span>
 
-                            <a href="https://m.me/crypticalcoder" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <a href="https://www.linkedin.com/messaging/thread/2-MDViN2MwMmMtMTEyZC00ZWZhLTlmMDgtYjU5NGY2ZTQ0YmU2XzAxMw==/" className="contact__button">Message me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
                     </div>
                 </div>
 
                 <div className="contact__content">
-                    <h3 className="contact__title">Write me your project</h3>
+                    <h3 className="contact__title">Write me an email</h3>
 
                     <form ref={form} onSubmit={sendEmail} className="contact__form">
                         <div className="contact__form-div">

@@ -49,6 +49,54 @@
     font-size: var(--tiny-font-size);
 }
 
+.skills__badge-icons{
+    display: flex;
+    align-items: flex-start;
+    font-size: var(--h2-font-size);
+}
+
+/*=== Icon Colors ===*/
+/*--- Frontend side ---*/
+.html {
+    color: orange;
+}
+
+.css {
+    color: blue;
+}
+
+.javascript {
+    color: rgb(218, 218, 42);
+}
+
+.sass{
+    color: hotpink;
+}
+
+.github{
+    color: black;
+}
+
+.react {
+    color: rgb(80, 174, 233);
+}
+
+.flutter {
+    color: rgb(80, 174, 233);
+}
+
+/*--- Backend side ---*/
+.node{
+    color: greenyellow;
+}
+
+.firebase {
+    color: rgb(235, 175, 64);
+}
+
+.mongoDB {
+    color: rgb(13, 75, 13);
+}
 
 /*===Responsive Breakpoints ===*/
 /*For large devices */
