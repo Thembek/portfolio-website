@@ -10,6 +10,17 @@ const Portfolio = () => {
         <div className="portfoliio" id="portfolio">
             <h2 className="section__title">My Portfolio</h2>
             <span className="section__subtitle">Built projects</span>
+
+            <Swiper
+                spaceBetween={25}
+                slidesPreview={3}
+                className="portfolio__slider"
+            >
+                <SwiperSlide>
+                    <img src={} alt="" />
+                </SwiperSlide>
+
+            </Swiper>
         </div>
     );
 }
