@@ -26,7 +26,7 @@ const About = () => {
                     <p className="about__description">
                         I am a web developer, pursuing fullstack web development, using the MERN stack framework, libraries, languages and database. <br />
                         I create web pages with UI / UX user interface, using Figma. <br /> 
-                        I also do mobile development, using Flutter. For my data storage, and authentification, I use MongoDb and Firebase. 
+                        I also do mobile development, using Dart (A.K.A Flutter). For my mobile data storage and authentification, I use both, MongoDb and Firebase. 
                     </p>
 
                     <a download="" href={CV} className="button button--flex">Download CV
