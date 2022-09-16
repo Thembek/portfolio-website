@@ -1,8 +1,12 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 const Frontend = () => {
     return(
         <div className="skills__content">
+            <Helmet>
+                <title style={{ fontFamily: "'Playfair Display', serif", fontStyle: "italic" }}>A.J.G Web Portfolio | Skills</title>
+            </Helmet>
             <h3 className="skills__title">Frontend developer</h3>
 
             <div className="skills__box">
