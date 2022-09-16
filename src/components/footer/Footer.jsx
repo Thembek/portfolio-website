@@ -24,20 +24,16 @@ const Footer = () => {
                 </ul>
 
                 <div className="footer__social">
-                    <a href="https://www.instagram.com/" className="footer__social-link" target="_blank">
+                    <a href="https://www.instagram.com/indzondzo_bila/" className="footer__social-link" target="_blank">
                         <i className="bx bxl-instagram"></i>
                     </a>
-                    <a href="https://www.facebook.com/" className="footer__social-link" target="_blank">
-                        <i className="bx bxl-facebook"></i>
+                    <a href="https://www.linkedin.com/in/andile-goba/" className="footer__social-link" target="_blank">
+                        <i className="bx bxl-linkedin"></i>
                     </a>
-                    <a href="https://www.twitter.com/" className="footer__social-link" target="_blank">
-                        <i className="bx bxl-twitter"></i>
+                    <a href="https://discord.com/channels/646608657831690241/646612479815843840" className="footer__social-link" target="_blank">
+                        <i className="bx bxl-discord"></i>
                     </a>
                 </div>
-
-                <span className="footer__copy">
-                    &#169; Crypticalcoder. All rigths reserved
-                </span>
             </div>
         </footer>
     );
