@@ -1,6 +1,6 @@
 import React from 'react';
 
-import AboutImg from '../../assets/about.jpg';
+import AboutVid from '../../assets/about-vid.mp4';
 import CV from '../../assets/Andile-Resume.pdf';
 import Info from './Info';
 import './about.css';
@@ -12,8 +12,10 @@ const About = () => {
             <span className="section__subtitle">About Me</span>
 
             <div className="about__container container grid">
-                <img src={AboutImg} alt="" className="about__img" />
-
+                <div className="about__img">
+                    <div className="about__img-overlay"></div>
+                    <video src={AboutVid} autoPlay loop muted />
+                </div>
                 <div className="about__data">
                     <Info />
 
