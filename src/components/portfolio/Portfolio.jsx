@@ -27,27 +27,27 @@ const Portfolio = () => {
                 className="portfolio-slider"
             >
                 <SwiperSlide>
-                    <a href="https://autotbots.netlify.app/">
+                    <a href="https://autotbots.netlify.app/" target="_blank">
                         <img src={Work1} alt="" />
                     </a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href="https://awehtodolist.netlify.app/">
+                    <a href="https://awehtodolist.netlify.app/" target="_blank">
                         <img src={Work5} alt="" />
                     </a>
                 </SwiperSlide>
-                <SwiperSlide>
-                    <a href="https://formula1ace.netlify.app/">
+                <SwiperSlide> 
+                    <a href="https://formula1ace.netlify.app/" target="_blank">
                         <img src={Work3} alt="" />
                     </a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href="https://thembek.github.io/Magazine-Work-One/">
+                    <a href="https://thembek.github.io/Magazine-Work-One/" target="_blank">
                         <img src={Work2} alt="" />
                     </a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href="https://surf-up.netlify.app/">
+                    <a href="https://surf-up.netlify.app/" target="_blank">
                         <img src={Work4} alt="" />
                     </a>
                 </SwiperSlide>
