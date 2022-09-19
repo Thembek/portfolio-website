@@ -109,8 +109,12 @@
   /*For small devices*/
   @media screen and (max-width: 350px){
     .about__info {
-        grid-template-columns: repeat(3, 69px);
+        grid-template-columns: repeat(3, 69 px);
         gap: 0.2rem;
         margin-bottom: var(--mb-2);
+    }
+
+    .about__title{
+        font-size: 0.6rem;
     }
   }
