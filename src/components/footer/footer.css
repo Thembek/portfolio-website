@@ -71,6 +71,6 @@
   /*For small devices*/
   @media screen and (max-width: 350px){
     .footer{
-        max-width: max-content;
+        max-width: 100vw;
     }
   }
