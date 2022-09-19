@@ -90,6 +90,10 @@
     color: greenyellow;
 }
 
+.redux {
+    color: purple;
+}
+
 .firebase {
     color: rgb(235, 175, 64);
 }
