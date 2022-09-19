@@ -63,6 +63,17 @@
     padding: 0 4rem 0 0;
 }
 
+.experience {
+    color: #00421a;
+}
+
+.completed {
+    color: #522900;
+}
+
+.hackathons {
+    color: #caba02;
+}
 
 /*===Responsive Breakpoints ===*/
 /*For large devices */
