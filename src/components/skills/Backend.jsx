@@ -30,16 +30,6 @@ const Backend = () => {
                             </span>
                         </div>
                     </div>
-
-                    <div className="skills__data">
-                        <i className='bx bx-badge-check' ></i>
-                        <div>
-                            <h3 className="skills__name">Redux</h3>
-                            <span className="skills__level">
-                                <i className='bx bxl-redux nodejs skills__badge-icons redux'></i>
-                            </span>
-                        </div>
-                    </div>
                 </div>
 
                 <div className="skills__group">
