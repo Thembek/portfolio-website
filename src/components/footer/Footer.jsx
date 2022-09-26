@@ -33,6 +33,9 @@ const Footer = () => {
                     <a href="https://discord.com/channels/646608657831690241/646612479815843840" className="footer__social-link" target="_blank">
                         <i className="bx bxl-discord"></i>
                     </a>
+                    <a href="https://github.com/Thembek" className="footer__social-link" target="_blank">
+                        <i class='bx bxl-github'></i>
+                    </a>
                 </div>
             </div>
         </footer>
